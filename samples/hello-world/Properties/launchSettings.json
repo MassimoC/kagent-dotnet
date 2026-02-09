@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "HelloWorld": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "applicationUrl": "https://localhost:50065;http://localhost:50066"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "launchBrowser": false,
+      "launchUrl": "http://localhost:50066",
+      "distributionName": ""
+    }
+  }
+}

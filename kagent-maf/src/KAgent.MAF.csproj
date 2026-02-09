@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>KAgent.MAF</RootNamespace>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- A2A SDK for .NET -->
+    <PackageReference Include="A2A" Version="0.3.3-preview" />
+    <PackageReference Include="A2A.AspNetCore" Version="0.3.3-preview" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Microsoft Agents AI SDK -->
+    <PackageReference Include="Microsoft.Agents.AI" Version="1.0.0-preview.260108.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\core\KAgent.Core.csproj" />
+  </ItemGroup>
+
+</Project>
